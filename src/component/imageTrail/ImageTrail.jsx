@@ -7,11 +7,11 @@ function ImageTrail() {
   const throttleDelay = 100;
 
   const imageUrls = [
-    "https://i.ibb.co/Ld2mq5vt/3.png",
-    "https://i.ibb.co/Ld2mq5vt/3.png",
-    "https://i.ibb.co/Ld2mq5vt/3.png",
-    "https://i.ibb.co/Ld2mq5vt/3.png",
-    "https://i.ibb.co/Ld2mq5vt/3.png",
+    "https://img2link.com/images/2025/07/15/84173134a9877132c8ccc8163b81bede.png",
+    "https://img2link.com/images/2025/07/15/283fb6890c1b7304098d2286a6ccd6cb.png",
+    "https://img2link.com/images/2025/07/15/49bb1053ec2fbefff08faa3c13183f86.jpeg",
+    "https://img2link.com/images/2025/07/15/5fb6ef721f4d891ad83102ac1e6d75fb.png",
+    "https://img2link.com/images/2025/07/15/ff7efe3d71e52f23db565a8362142186.png",
   ];
 
   useEffect(() => {
