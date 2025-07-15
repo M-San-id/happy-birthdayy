@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import "./MiniGame.css";
+import "./miniGame.css";
 
 // Main App component for the Tic-Tac-Toe game
 const MiniGame = () => {
