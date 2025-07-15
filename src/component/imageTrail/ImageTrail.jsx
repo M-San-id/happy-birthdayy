@@ -7,11 +7,11 @@ function ImageTrail() {
   const throttleDelay = 100;
 
   const imageUrls = [
-    "../public/1.png",
-    "../public/2.png",
-    "../public/3.png",
-    "../public/4.png",
-    "../public/5.jpeg",
+    "https://ibb.co/PZKcNwV7",
+    "https://ibb.co/GvLrF4tz",
+    "https://ibb.co/r2Lz98HQ",
+    "https://ibb.co/23h9PFgc",
+    "https://ibb.co/ksV0J5yq",
   ];
 
   useEffect(() => {
