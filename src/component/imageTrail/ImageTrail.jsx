@@ -1,5 +1,5 @@
 import React, { useEffect, useRef } from "react";
-import "./ImageTrail.css";
+import "./imageTrail.css";
 
 function ImageTrail() {
   const containerRef = useRef(null);
