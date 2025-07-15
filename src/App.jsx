@@ -6,7 +6,6 @@ import Quotes from "./Quotes";
 import MiniGame from "./MiniGame";
 import Navbar from "./component/navbar/Navbar";
 import Particles from "./component/particles/Particles";
-import ImageTrail from "./component/imageTrail/ImageTrail";
 
 function App() {
   const [isDesktop, setIsDesktop] = useState(window.innerWidth >= 768);
@@ -71,7 +70,6 @@ function App() {
           alphaParticles={false}
           disableRotation={false}
         />
-        <ImageTrail />
         <Navbar />
         <Routes>
           <Route path="/" element={<Home />} />
