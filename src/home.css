@@ -1,0 +1,32 @@
+.home-container {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  z-index: 1;
+}
+
+.home-content {
+  border: #e91e63 solid 5px;
+  border-radius: 10px;
+  padding: 3rem;
+  display: flex;
+  margin-top: 10rem;
+  flex-direction: column;
+  background-color: white;
+  width: 700px;
+  height: 400px;
+  text-align: center;
+}
+
+.home-content h1 {
+  color: #db2777;
+  font-family: "Pixels", sans-serif;
+  font-size: 68px;
+}
+
+.home-content p {
+  color: #4b5563;
+  font-family: "Pixels", sans-serif;
+  font-size: 28px;
+  margin-top: 1rem;
+}

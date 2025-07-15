@@ -1,0 +1,58 @@
+.love-fixed-container {
+  position: fixed;
+  right: 600px;
+  bottom: 300px;
+  width: 64px;
+  height: 64px;
+  z-index: 1000;
+  pointer-events: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.love-btn {
+  pointer-events: auto;
+  z-index: 2;
+  position: relative;
+  background: rgb(231, 67, 122);
+  border: none;
+  border-radius: 50%;
+  color: white;
+  width: 64px;
+  height: 64px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background 0.2s, transform 0.1s;
+}
+
+.love-btn:hover {
+  background: #c2185b;
+  transform: scale(1.08);
+}
+.love-btn:active {
+  background: #ad1457;
+  transform: scale(0.96);
+}
+.love-heart-anim {
+  position: fixed;
+  left: var(--left, 50vw);
+  bottom: 32px;
+  z-index: 1;
+  animation: riseAndFade 3s ease-out forwards;
+}
+@keyframes riseAndFade {
+  0% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    transform: translateY(-180px);
+    opacity: 0;
+  }
+}

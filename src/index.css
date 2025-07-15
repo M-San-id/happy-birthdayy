@@ -1,0 +1,13 @@
+@font-face {
+  font-family: "Pixels";
+  src: url(./assets/Jersey10-Regular.ttf);
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  background-color: #fce4ec;
+}
