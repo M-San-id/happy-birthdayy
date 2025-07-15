@@ -31,13 +31,9 @@ function App() {
       return (
         <div style={{ textAlign: "center", marginTop: "50px" }}>
           <h2>
-            Website hanya dapat diakses melalui perangkat desktop atau mode
-            landscape.
+            Miringin hpnya cuy ♻️ atau buka di pc/laptop
           </h2>
-          <p>
-            Silakan ubah orientasi perangkat Anda ke <b>landscape</b> untuk
-            melanjutkan.
-          </p>
+          <p>Ubah posisi handphone menjadi landscape ♻️</p>
         </div>
       );
     }
