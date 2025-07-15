@@ -8,10 +8,10 @@ function ImageTrail() {
 
   const imageUrls = [
     "https://i.ibb.co/Ld2mq5vt/3.png",
-    "https://ibb.co/GvLrF4tz",
-    "https://ibb.co/r2Lz98HQ",
-    "https://ibb.co/23h9PFgc",
-    "https://ibb.co/ksV0J5yq",
+    "https://i.ibb.co/Ld2mq5vt/3.png",
+    "https://i.ibb.co/Ld2mq5vt/3.png",
+    "https://i.ibb.co/Ld2mq5vt/3.png",
+    "https://i.ibb.co/Ld2mq5vt/3.png",
   ];
 
   useEffect(() => {
