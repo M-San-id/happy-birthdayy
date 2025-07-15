@@ -7,7 +7,7 @@ function ImageTrail() {
   const throttleDelay = 100;
 
   const imageUrls = [
-    "https://ibb.co/PZKcNwV7",
+    "https://i.ibb.co/Ld2mq5vt/3.png",
     "https://ibb.co/GvLrF4tz",
     "https://ibb.co/r2Lz98HQ",
     "https://ibb.co/23h9PFgc",
